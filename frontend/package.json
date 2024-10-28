@@ -1,0 +1,57 @@
+{
+  "name": "frontend2",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "@arbitrum/sdk": "^4.0.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.4",
+    "@mui/material": "^6.1.4",
+    "@mui/material-nextjs": "^6.1.5",
+    "@mui/styled-engine-sc": "^6.1.4",
+    "@rainbow-me/rainbowkit": "^2.2.0",
+    "@tanstack/react-query": "^5.55.3",
+    "antd": "^5.21.4",
+    "axios": "^1.7.7",
+    "fs": "^0.0.1-security",
+    "next": "^14.2.10",
+    "prompts": "^2.4.2",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-icons": "^5.3.0",
+    "react-toastify": "^10.0.6",
+    "sharp": "^0.33.5",
+    "styled-components": "^6.1.13",
+    "tailwind": "^4.0.0",
+    "viem": "2.17.0",
+    "wagmi": "^2.12.17"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.8",
+    "@nextui-org/react": "^2.4.8",
+    "@types/lru-cache": "^7.10.9",
+    "@types/node": "^20.14.8",
+    "@types/prompts": "^2.4.9",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "5.5.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "type": "module"
+}
