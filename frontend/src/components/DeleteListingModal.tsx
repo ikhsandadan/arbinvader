@@ -21,11 +21,12 @@ const DeleteListingModal = ({
     onClose,
 	item,
 } :  {open: boolean, onClose: () => void, item: ListedItem }) => {
-	const { handleCancelListing, getUserOwnedItems } = useAppContext();
+	const { handleCancelListing, getUserOwnedItems, getUserListedItems } = useAppContext();
 
 	const onSubmit = async () => {
 		await handleCancelListing(item?.tokenId);
 		await getUserOwnedItems();
+		await getUserListedItems();
 		onClose();
 	};
 
