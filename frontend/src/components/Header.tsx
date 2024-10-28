@@ -94,9 +94,7 @@ const Header = () => {
                                 <Button 
                                     key={page.name} 
                                     sx={{color: 'white'}} 
-                                    className={`font-semibold bg-[#091a1f] hover:border hover:rounded-full hover:px-6 py-2 rounded-full 
-                                        ${currentPage === page.name ? 'bg-[#f5f5f5] text-[#091a1f]' : 'hover:bg-[#f5f5f5] hover:text-[#091a1f]'}`
-                                    }
+                                    className={`font-semibold bg-[#091a1f] hover:border hover:rounded-full hover:px-6 py-2 rounded-full ${currentPage === page.name ? 'bg-[#f5f5f5] text-[#091a1f]' : 'hover:bg-[#f5f5f5] hover:text-[#091a1f]'}`}
                                 >
                                     <Link href={page.link}>{page.name}</Link>
                                 </Button>
