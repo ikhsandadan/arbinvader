@@ -211,7 +211,7 @@ const Homepage = () => {
                                                         <th className='p-2 text-left font-bold'>User Address</th>
                                                         <th className='p-2 text-right font-bold'>Score</th>
                                                         <th className='p-2 text-right font-bold'>Games Played</th>
-                                                        <th className='p-2 text-left font-bold'>Spaceship</th>
+                                                        <th className='p-2 text-center font-bold'>Spaceship</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
