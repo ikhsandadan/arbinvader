@@ -105,7 +105,7 @@ const ItemCollectedModal: FC<ItemCollectedModalProps> = ({
                             }
 
                             return (
-                                <IconButton disabled={ownedItems.map((item: any) => item.name).includes(item.name)} className={`grid text-xl font-bold text-white items-center justify-items-center p-2 min-w-max rounded-md justify-self-center self-center ${clickedItems[item.id] ? 'shadow-[0_0_10px_#6b9ed7] m-4' : ''}`} key={index} id={`item-${item.id}`} onClick={() => handleSelectItem(item.id, item.name)}>
+                                <IconButton disabled={ownedItems.map((item: any) => item.name).includes(item.name)} className={`flex flex-col flex-wrap text-xl font-bold text-white items-center justify-items-center p-2 min-w-max rounded-md justify-self-center self-center ${clickedItems[item.id] ? 'shadow-[0_0_10px_#6b9ed7] m-4' : ''}`} key={index} id={`item-${item.id}`} onClick={() => handleSelectItem(item.id, item.name)}>
                                     <img src={item.image.src} className='size-16' />
                                     <div>{item.name}</div>
                                     <div className={rarityColor}>{item.rarity}</div>
