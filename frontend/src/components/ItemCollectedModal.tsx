@@ -3,7 +3,7 @@ import { FC, useEffect } from 'react';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Pagination from '@mui/material/Pagination';
-import { IconButton } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
 
 import { CollectedItem, useAppContext } from '../context/AppContext';
 import { MyGameStats } from '../context/AppContext';
