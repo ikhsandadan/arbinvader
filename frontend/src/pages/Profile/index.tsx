@@ -107,7 +107,7 @@ const ListedNFTCard = ({
             )}
 
             <div className='flex flex-wrap gap-3'>
-                {(isAuctionEnded && !hasHighestBidder) || !item?.allowBids ? (
+                {!item?.allowBids ? (
                     <button
                         className='bg-white rounded-md my-2 px-2 py-1 text-black hover:bg-transparent 
                             hover:text-white hover:border hover:border-white max-w-max'
