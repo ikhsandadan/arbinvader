@@ -82,6 +82,29 @@ All smart contracts are deployed on the Arbitrum network for faster transactions
 
 ## 🎮 App Preview
 
+**Screenshoots**
+
+
+![1](https://github.com/user-attachments/assets/5a921ed2-0a4b-40c0-92d7-bfbcd0a4e2dc)
+
+
+![2](https://github.com/user-attachments/assets/18709206-ad93-4265-ab07-e205fe3c4741)
+
+
+![3](https://github.com/user-attachments/assets/e8cf45ce-bee4-4dc4-82e6-e41bce915a8e)
+
+
+![3a](https://github.com/user-attachments/assets/519e0916-7095-4bdd-9b9e-995b2ab85fd8)
+
+
+![4](https://github.com/user-attachments/assets/3811dc7d-3af6-4e74-b001-de7146d75731)
+
+
+![5](https://github.com/user-attachments/assets/6cf6af9b-28fd-47b2-aaec-99dddbea8615)
+
+
+
+**Video Demo**
 
 
 ---
