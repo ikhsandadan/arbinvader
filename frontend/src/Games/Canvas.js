@@ -1065,7 +1065,7 @@ const Canvas = ({ setScores, ship, aliens, bosses, items, setHp, setCollectedIte
     
                     newWave() {
                         this.waveCount++;
-                        if (this.waveCount % 5 === 0) {
+                        if (this.waveCount % 3 === 0) {
                             let bosses = [
                                 { type: Boss3, threshold: 0.1, multiplier: 1.5 },
                                 { type: Boss2, threshold: 0.3, multiplier: 1.0 },
