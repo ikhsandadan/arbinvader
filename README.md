@@ -65,6 +65,16 @@ All smart contracts are deployed on the Arbitrum network for faster transactions
 - **Gas Optimized**: Implemented efficient patterns to minimize gas costs
 - **Upgrade Proxy**: Contracts are upgradeable via proxy pattern for future improvements
 
+## 🎨 NFT Items and Tiers
+
+| Tier | Rarity | Drop Rate |
+|------|---------|-----------|
+| Common | ⚪ | 64.94% |
+| Uncommon | 🟢 | 23.38% |
+| Rare | 🔵 | 7.79% |
+| Epic | 🟣 | 2.60% |
+| Legendary | 🟡 | 1.30% |
+
 ## 🚀 Getting Started
 
 1. Visit [Arbinvader](https://arbinvader.vercel.app/)
